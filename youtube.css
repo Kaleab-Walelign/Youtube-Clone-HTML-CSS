@@ -1,0 +1,313 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(43, 43, 43);
+    color: #fff;
+    font-family: sans-serif;
+    
+}
+
+.material-icons{
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+
+.head {
+    
+    display: flex;
+    margin: 20px 0 0 30px;
+    
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.head_left {
+    
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
+    padding-left: 22px;
+    
+}
+h2{
+    cursor: pointer;
+    
+}
+
+.head_middle {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 500px;
+    outline-width: 0;
+    background-color: rgb(29, 29, 29);
+    border: none;
+}
+::placeholder {
+    color: rgb(155, 155, 155);
+    font-size: larger;
+    padding-left: 12px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    flex-direction: row;
+    
+}
+button {
+    background-color: rgb(54, 54, 54);
+    border: none;
+    width: 50px;
+    cursor: pointer;
+}
+.btn_record {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    background-color: rgb(20, 20, 20);
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.head_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-right: 20px;
+    
+    
+}
+.hr {
+    cursor: pointer;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+
+/* body */
+
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    
+    
+
+}
+
+.main_left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px; 
+    overflow: scroll;
+    width: 220px;
+    height: 100%;
+    position: fixed;
+    
+    
+    
+}
+
+.item {
+    
+    display: flex;
+    
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    height: 45px;
+    
+ 
+}
+.item > span {
+    margin-left: 30px;
+    margin-right: 20px;
+    display: flex;
+    
+}
+.item:hover {
+    background-color: rgb(68, 68, 68);
+    
+}
+.home {
+    background-color: rgb(68, 68, 68);
+
+}
+
+hr {
+    width: 100%;
+    border: none;
+    border-top:1px solid rgb(88, 88, 88);  
+   
+}
+.label {
+    color: rgb(126, 126, 126);
+    margin-left: 30px;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 8px;
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(109, 109, 109); 
+    border-radius: 10px;
+    
+  }
+
+  label {
+      
+      font-size: small;
+  }
+  
+  .last {
+      margin-bottom: 100px;
+  }
+
+  .last > span {
+      margin-left: 30px;
+      font-size: small;
+      color: rgb(87, 87, 87);
+
+  }
+  .buttons {
+     margin-left: 30px;
+      margin-bottom: 40px;
+      
+  }
+  button {
+      
+      background: none;
+      color: rgb(184, 184, 184);
+      margin-right: 3px;
+      
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/* Middle body */
+
+.mm {
+    margin-left: 250px;
+    width: 100%;
+    border: none;
+    border-top:1px solid rgb(88, 88, 88);  
+   
+}
+
+.middle_body{
+    
+    flex: 1 0 auto;
+    
+    display: grid;
+    grid-template-rows: 319px 319px 319px 319px;
+    grid-template-columns: 319px 319px 319px 319px;
+
+    margin-left: 250px;
+    
+    
+    
+}
+
+
+
+.posts{
+    
+    
+    margin-right: 12px;
+    height: 280px;
+    width: 307px;
+    
+}
+
+.thumbnal{
+    background-color: rgb(90, 90, 90);
+    width: 307px;
+    height: 150px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.info {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.account {
+    
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 100%;
+    background-color: rgb(90, 90, 90);
+    cursor: pointer;
+}
+.title {
+    
+    margin-left: 8px;
+    cursor: pointer;
+    
+}
+
+.name,
+.watch {
+    margin-top: 10px;
+    margin-left: 58px;
+    font-size: smaller;
+    color: rgb(139, 139, 139);
+    cursor: pointer;
+}
